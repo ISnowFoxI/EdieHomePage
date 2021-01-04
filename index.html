@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+
+  <link rel="icon" href="./img/devchallenges.png" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+
+  <title>Edie</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;800&family=Poppins:ital,wght@0,400;0,500;1,800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="./script.js" async></script>
+</head>
+
+<body>
+  <header>
+    <div id="header">
+      <a href="#header" class="logo-name">Edie</a>
+      <a href="javascript:void(0);" onclick="navLinksVis()"><img class="hamburgerMenu" src="./icons/hamburgerMenu.png"
+          alt="hamburgerMenuForMobile"></a>
+    </div>
+    <nav id="navigation">
+      <a class="nav-links" href="#home">Home</a>
+      <a class="nav-links" href="#services">Services</a>
+      <a class="nav-links" href="#our-works">Our Works</a>
+      <a class="nav-links" href="#our-team">Our Team</a>
+      <a class="nav-links" href="#clients">Clients</a>
+      <a class="nav-links" href="#clients">Contact</a>
+    </nav>
+  </header>
+  <main class="main">
+    <div class="home" id="home">
+
+      <p>Unhappy with your website?</p>
+      <h1>We create beautiful and fast web services</h1>
+      <img src="./img/heroImage.jpg" class="hero-image" />
+    
+      <h1 >Story, emotion and purpose</h1>
+      <p class="second-par" >We help transform your ideas into real world applications that will outperform your
+        toughest competition and help you achieve your strategic goals in short period of time.</p>
+
+
+      <form id="contact-form">
+        <label for="contact-email" >Want us to contact you?</label>
+        <div class="input-container">
+          <input id="contact-email" type="text" placeholder="Email">
+          <input id="join-button" type="submit" value="Join">
+
+        </div>
+      </form>
+    </div>
+    <div id="services" class="services">
+      <h2 class="section-headers" >We offer high demand services</h2>
+      <div class="service-container">
+        <div class="service-icon icon-ui-ux"><img class="icon-image" src="./icons/create-24px.svg" alt="ux-ui-icon"></div>
+        <h3 class="service-headings">UI/UX Design</h3>
+        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla
+          consequat aliquet id quis turpis.</p>
+        <button class="service-button">Get started</button>
+      </div>
+
+      <div class="service-container">
+        <div class="service-icon icon-front-end"><img class="icon-image" src="./icons/code-24px.svg" alt="front-end-icon"></div>
+        <h3 class="service-headings">Front End</h3>
+        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla
+          consequat aliquet id quis turpis.</p>
+        <button class="service-button">Get started</button>
+      </div>
+
+      <div class="service-container">
+        <div class="service-icon icon-back-end"><img class="icon-image" src="./icons/storage-24px.svg" alt="back-end-icon"></div>
+        <h3 class="service-headings">Back End</h3>
+        <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla
+          consequat aliquet id quis turpis.</p>
+        <button class="service-button">Get started</button>
+      </div>
+
+
+    </div>
+
+
+    <div id="our-works" class="our-works">
+      <h2 class="section-headers">Good design means good business</h2>
+      <div class="bundle-application-container">
+
+      
+        <figure class="single-application-container">
+          <img class="single-application-image-container" src="./img/smarthome.jpg"/>
+            
+          </img>
+          <figcaption>
+            <p >Full stack application</p>
+            <h4 >
+              Smart home dashboard
+            </h4>
+          </figcaption>
+        </figure>
+      
+        <figure class="single-application-container">
+          <img class="single-application-image-container" src="./img/onboard.png" />         
+          </img>
+          <figcaption>
+            <p >UX/UI design</p>
+            <h4 >
+              Onboard application
+            </h4>
+          </figcaption>
+        </figure>
+      
+        <figure class="single-application-container">
+          <img class="single-application-image-container" src="./img/booking.png"/>
+            
+          </img>
+          <figcaption>
+            <p >Mobile application</p>
+            <h4 >
+              Booking system
+            </h4>
+          </figcaption>
+        </figure>
+      
+        <figure class="single-application-container">
+          <img class="single-application-image-container" src="./img/juice-product.png" />
+            
+          </img>
+          <figcaption>
+            <p >Front End application</p>
+            <h4 >
+              Juice product homepage
+            </h4>
+          </figcaption>
+        </figure>
+    
+
+      <a id="see-more">see more &#8594;</a>
+    </div>
+
+    </div>
+
+
+    <div id="our-team" class="our-team">
+      <p>Meet the team</p>
+      <h2 >We are chilled and a laidback team</h2>
+      <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+      <div class="flex-image-container">
+        <img class="worker-image" src="./img/person1.png" alt="Jhon">
+        <img class="worker-image" src="./img/person2.png" alt="Andrew">
+        <img class="worker-image" src="./img/person3.png" alt="Kate">
+      </div>
+
+    </div>
+
+    <div class="clients" id="clients">
+      <p >“Fast and outstanding resutls. Edie understands their customer’s needs. They
+        have a young and talented team.” </p>
+
+
+      <figure class="figure-client">
+        <img src="./img/person4.png" alt="Carlos Tran">
+        <figcaption>
+          <p>Carlos Tran</p>
+          <p>The Decorate Gatsby</p>
+        </figcaption>
+      </figure>
+    </div>
+
+
+  </main>
+  <footer class="footer">
+    <nav id="footer-navigation">
+      <a class="nav-links footer-nav-links" href="#home">Home</a>
+      <a class="nav-links footer-nav-links" href="#services">Services</a>
+      <a class="nav-links footer-nav-links" href="#our-works">Our Works</a>
+      <a class="nav-links footer-nav-links" href="#our-team">Our Team</a>
+      <a class="nav-links footer-nav-links" href="#clients">Clients</a>
+      <a class="nav-links footer-nav-links" href="#clients">Contact</a>
+    </nav>
+      <div class="socials">
+        <a href="#header" class="logo-name footer-logo">Edie</a>
+        <a href=""><img src="./img/instagram.svg" alt="instagram"></a>
+        <a href=""><img src="./img/linkedin.svg" alt="linkdin"></a>
+        <a href=""><img src="./img/twitter.svg" alt="twitter"></a>
+      </div>
+    <form id="contact-form">
+    <label for="contact-email" >Want us to contact you?</label>
+    <div class="input-container">
+      <input id="contact-email" type="text" placeholder="Email">
+      <input id="join-button" type="submit" value="Join">
+
+    </div>
+  </form>
+    <p class="copyright">Snow Fox @ DevChallenges.io</p>
+  </footer>
+</body>
+
+</html>
