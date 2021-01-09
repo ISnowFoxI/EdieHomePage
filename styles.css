@@ -106,7 +106,6 @@ html {
 
 .services, .our-works, .our-team, .clients {
 	margin-top: 102px;
-	border: 1px solid red;
 }
 
 h1, .home p:first-child, .second-par, #contact-form, .section-headers {
