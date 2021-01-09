@@ -330,7 +330,7 @@ h3 {
 	color: #EB5757;
 }
 
-.flex-image-container {
+.grid-image-container {
 		display: grid;
 		max-width: 100%;
 		grid-template-rows: 1fr 1fr;
