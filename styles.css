@@ -270,8 +270,6 @@ h3 {
 	margin-bottom: 48px;
 }
 
-.bundle-application-container {}
-
 .single-application-container {
 	display: block;
 	border-radius: 1rem;
@@ -283,8 +281,6 @@ h3 {
 	width: 100%;
 	min-height: 100px;
 }
-
-.figure-captions-par {}
 
 .single-application-container figcaption p {
 	font-size: 1rem;
@@ -305,6 +301,7 @@ h3 {
 	line-height: 2.25rem;
 	margin-top: 35px;
 	color: #2D9CDB;
+	text-decoration: none;
 }
 
 .our-team {
@@ -381,7 +378,7 @@ h3 {
 }
 
 .figure-client p {
-	grid-area: par";
+	grid-area: par;
 	font-size: 1.5rem;
 	line-height: 2.25rem;
 	color: #828282;
